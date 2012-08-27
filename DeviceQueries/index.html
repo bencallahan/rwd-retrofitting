@@ -1,0 +1,45 @@
+<!doctype html>
+
+<html>
+<head>
+  <title>Device Query Example</title>
+  <meta name="viewport" content="width=device-width" />
+
+  <style>
+    @media (max-device-width: 3000px) {
+      .element:before {
+        content: "max-device-width: 3000px";
+      }
+    }
+    @media (max-device-width: 2000px) {
+      .element:before {
+        content: "max-device-width: 2000px";
+      }
+    }
+    @media (max-device-width: 1000px) {
+      .element:before {
+        content: "max-device-width: 1000px";
+      }
+    }
+    @media (max-device-width: 800px) {
+      .element:before {
+        content: "max-device-width: 800px";
+      }
+    }
+    @media (max-device-width: 600px) {
+      .element:before {
+        content: "max-device-width: 600px";
+      }
+    }
+    @media (max-device-width: 300px) {
+      .element:before {
+        content: "max-device-width: 300px";
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="element"></div>
+</body>
+</html>

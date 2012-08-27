@@ -1,46 +1,72 @@
-* {
+body { background-color: red; }
+
+/* make browsers include padding and border inside the width */
+/* http://paulirish.com/2012/box-sizing-border-box-ftw/ */
+/* http://html5please.com/#box-sizing */
+/** {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box; *behavior: url(/js/libs/boxsizing.htc);
+  box-sizing: border-box;
 }
+*/
 
-thead {
-  display: none;
-}
-
-table {
+/* basic table styles and positioning */
+/*table {
   width: 100%;
   float: left;
   border: 1px solid #aaa;
 }
-th, td {
+*/
+
+/* table cells get "display: block" and "float: left" */
+/*th, td {
   display: block;
   float: left;
   text-align: center;
   border: 0;
   border-bottom: 1px solid #aaa;
 }
-th {
+*/
+
+/* the far left column will be full-width and called out */
+/*th {
   width: 100%;
   background-color: #000;
   color: #fff;
 }
-td {
+*/
+
+/* each inner table cell will fit four-across (25%) */
+/*td {
   width: 25%;
   min-height: 3em;
   border-right: 1px solid #aaa;
 }
+*/
 
-td:before {
+/* hide the header row */
+/*thead {
+  display: none;
+}
+*/
+
+/* because the header row is dynamic and we need to see it for each row,
+   we're going to use generated content to fake it */
+/*td:before {
   display: block;
   font-weight: bold;
   margin-bottom: .25em;
 }
+*/
 
-td:nth-child(2):before {
+/* the second column (or the first inner table cell) is the first payment */
+/*td:nth-child(2):before {
   content: "Today";
 }
-td:nth-child(3):before {
+*/
+
+/* each additional inner cell is for the following month's payment */
+/*td:nth-child(3):before {
   content: "Month 2";
 }
 td:nth-child(4):before {
@@ -70,8 +96,10 @@ td:nth-child(11):before {
 td:nth-child(12):before {
   content: "Month 11";
 }
+*/
 
-tr:nth-child(2) td:nth-child(11),
+/* hide the empty cells at the end of each row */
+/*tr:nth-child(2) td:nth-child(11),
 tr:nth-child(2) td:nth-child(12),
 tr:nth-child(3) td:nth-child(12),
 tr:nth-child(4) td:nth-child(9),
@@ -80,7 +108,9 @@ tr:nth-child(4) td:nth-child(11),
 tr:nth-child(4) td:nth-child(12) {
   display: none;
 }
+*/
 
-tr:nth-child(5) td {
+/* the last option only has one inner cell, make it 100% */
+/*tr:nth-child(5) td {
   width: 100%;
-}
+}*/

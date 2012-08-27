@@ -35,6 +35,11 @@ h1 {
   max-width: 100%;
 }
 
+.test-2-c .fixit img {
+  max-width: 100%;
+  width: 10000px;
+}
+
 .test-3-a .fixit img,
 .test-4-a .fixit img,
 .test-4-c .fixit img[style] {
@@ -49,6 +54,7 @@ h1 {
 
 .test-1,
 .test-2,
+.test-2-c,
 .test-3-a,
 .test-3-b,
 .test-4-b {
