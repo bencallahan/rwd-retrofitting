@@ -1,0 +1,153 @@
+<!doctype html>
+
+<html>
+<head>
+  <title>Retrofitting Inline Image Styles, by Ben Callahan</title>
+  <link rel="stylesheet" href="css/images.css">
+</head>
+
+<body>
+
+<div class="test test-1">
+  <h1>Test 1</h1>
+  <div class="half">
+    <img src="images/br-logo.png" alt="Build Responsively Logo">
+    <p>no image attributes, no inline styles</p>
+  </div>
+
+  <div class="half fixit">
+    <img src="images/br-logo.png" alt="Build Responsively Logo">
+    <p>css - "width: 100%"</p>
+  </div>
+</div>
+
+
+<div class="test test-2">
+  <h1>Test 2</h1>
+  <div class="half">
+    <img src="images/br-logo.png" alt="Build Responsively Logo" width="200">
+    <p>inline attribute - "width=200"</p>
+  </div>
+
+  <div class="half fixit">
+    <img src="images/br-logo.png" alt="Build Responsively Logo" width="200">
+    <p>css - "width: 100%"</p>
+  </div>
+</div>
+
+
+<div class="test test-2-b">
+  <h1>Test 2 B</h1>
+  <div class="half">
+    <img src="images/br-logo.png" alt="Build Responsively Logo" width="200">
+    <p>inline attribute - "width=200"</p>
+  </div>
+
+  <div class="half fixit">
+    <img src="images/br-logo.png" alt="Build Responsively Logo" width="200">
+    <p>css - "max-width: 100%"</p>
+  </div>
+</div>
+
+
+<div class="test test-3">
+  <h1>Test 3</h1>
+  <div class="half">
+    <img src="images/br-logo.png" alt="Build Responsively Logo" style="width: 200px">
+    <p>inline style - "width: 200px"</p>
+  </div>
+
+  <div class="half fixit">
+    <img src="images/br-logo.png" alt="Build Responsively Logo" style="width: 200px">
+    <p>css - "width: 100%"</p>
+  </div>
+</div>
+
+
+<div class="test test-3-a">
+  <h1>Test 3 A</h1>
+  <div class="half">
+    <img src="images/br-logo.png" alt="Build Responsively Logo" style="width: 200px">
+    <p>inline style - "width: 200px"</p>
+  </div>
+
+  <div class="half fixit">
+    <img src="images/br-logo.png" alt="Build Responsively Logo" style="width: 200px">
+    <p>css - "width: 100% !important"</p>
+  </div>
+</div>
+
+
+<div class="test test-3-b">
+  <h1>Test 3 B</h1>
+  <div class="half">
+    <img src="images/br-logo.png" alt="Build Responsively Logo" style="width: 200px">
+    <p>inline style - "width: 200px"</p>
+  </div>
+
+  <div class="half fixit">
+    <img src="images/br-logo.png" alt="Build Responsively Logo" style="width: 200px">
+    <p>css - "min-width: 100%"</p>
+  </div>
+</div>
+
+
+<div class="test test-4">
+  <h1>Test 4</h1>
+  <div class="half">
+    <img src="images/br-logo.png" alt="Build Responsively Logo" style="width: 200px !important">
+    <p>inline style - "width: 200px !important"</p>
+  </div>
+
+  <div class="half fixit">
+    <img src="images/br-logo.png" alt="Build Responsively Logo" style="width: 200px !important">
+    <p>css - "width: 100%"</p>
+  </div>
+</div>
+
+
+<div class="test test-4-a">
+  <h1>Test 4 A</h1>
+  <div class="half">
+    <img src="images/br-logo.png" alt="Build Responsively Logo" style="width: 200px !important">
+    <p>inline style - "width: 200px !important"</p>
+  </div>
+
+  <div class="half fixit">
+    <img src="images/br-logo.png" alt="Build Responsively Logo" style="width: 200px !important">
+    <p>css - "width: 100% !important"</p>
+  </div>
+</div>
+
+
+<div class="test test-4-b">
+  <h1>Test 4 B</h1>
+  <div class="half">
+    <img src="images/br-logo.png" alt="Build Responsively Logo" style="width: 200px !important">
+    <p>inline style - "width: 200px !important"</p>
+  </div>
+
+  <div class="half fixit">
+    <img src="images/br-logo.png" alt="Build Responsively Logo" style="width: 200px !important">
+    <p>css - "min-width: 100%"</p>
+  </div>
+</div>
+
+
+<div class="test test-4-c">
+  <h1>Test 4 C</h1>
+  <div class="half">
+    <img src="images/br-logo.png" alt="Build Responsively Logo" style="width: 200px !important">
+    <p>inline style - "width: 200px !important"</p>
+  </div>
+
+  <div class="half fixit">
+    <img src="images/br-logo.png" alt="Build Responsively Logo" style="width: 200px !important">
+    <p>css - "img[style] { width: 100% !important }"</p>
+  </div>
+</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,86 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; *behavior: url(/js/libs/boxsizing.htc);
+}
+
+thead {
+  display: none;
+}
+
+table {
+  width: 100%;
+  float: left;
+  border: 1px solid #aaa;
+}
+th, td {
+  display: block;
+  float: left;
+  text-align: center;
+  border: 0;
+  border-bottom: 1px solid #aaa;
+}
+th {
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+}
+td {
+  width: 25%;
+  min-height: 3em;
+  border-right: 1px solid #aaa;
+}
+
+td:before {
+  display: block;
+  font-weight: bold;
+  margin-bottom: .25em;
+}
+
+td:nth-child(2):before {
+  content: "Today";
+}
+td:nth-child(3):before {
+  content: "Month 2";
+}
+td:nth-child(4):before {
+  content: "Month 3";
+}
+td:nth-child(5):before {
+  content: "Month 4";
+}
+td:nth-child(6):before {
+  content: "Month 5";
+}
+td:nth-child(7):before {
+  content: "Month 6";
+}
+td:nth-child(8):before {
+  content: "Month 7";
+}
+td:nth-child(9):before {
+  content: "Month 8";
+}
+td:nth-child(10):before {
+  content: "Month 9";
+}
+td:nth-child(11):before {
+  content: "Month 10";
+}
+td:nth-child(12):before {
+  content: "Month 11";
+}
+
+tr:nth-child(2) td:nth-child(11),
+tr:nth-child(2) td:nth-child(12),
+tr:nth-child(3) td:nth-child(12),
+tr:nth-child(4) td:nth-child(9),
+tr:nth-child(4) td:nth-child(10),
+tr:nth-child(4) td:nth-child(11),
+tr:nth-child(4) td:nth-child(12) {
+  display: none;
+}
+
+tr:nth-child(5) td {
+  width: 100%;
+}

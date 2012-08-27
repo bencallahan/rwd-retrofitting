@@ -1,0 +1,56 @@
+body {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  margin: 0 auto;
+}
+
+div.half {
+  width: 50%;
+  float: left;
+}
+
+.test {
+  float: left;
+  width: 90%;
+  margin: 1em 5%;
+  text-align: center;
+  border: 5px solid red;
+}
+h1 {
+  text-align: left;
+  padding-left: 1em;
+}
+
+
+
+.test-1 .fixit img,
+.test-2 .fixit img,
+.test-3 .fixit img,
+.test-4 .fixit img {
+  width: 100%;
+}
+
+.test-2-b .fixit img {
+  max-width: 100%;
+}
+
+.test-3-a .fixit img,
+.test-4-a .fixit img,
+.test-4-c .fixit img[style] {
+  width: 100% !important;
+}
+
+.test-3-b .fixit img,
+.test-4-b .fixit img {
+  min-width: 100%;
+}
+
+
+.test-1,
+.test-2,
+.test-3-a,
+.test-3-b,
+.test-4-b {
+  border-color: green;
+}
