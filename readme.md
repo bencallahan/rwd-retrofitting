@@ -1,8 +1,7 @@
-# RWD Summit, August 28, 2012
-## Retrofitting Sites for Responsive Web Design
-### [Ben Callahan](http://twitter.com/bencallahan), [Sparkbox](http://seesparkbox.com)
+# Retrofitting Sites for Responsive Web Design
+## [Ben Callahan](http://twitter.com/bencallahan), [Sparkbox](http://seesparkbox.com)
 
-The files in this repo are intended to be used alongside my presentation on Responsive Retrofitting for the [2012 RWD Summit](http://rwdsummit.com).
+The files in this repo are intended to be used alongside my presentations on Responsive Retrofitting.
 
 The Following is a list of resources for learning more about retrofitting in responsive web design.
 
@@ -38,8 +37,6 @@ The Following is a list of resources for learning more about retrofitting in res
 * [iOS Orientation Change Fix](https://github.com/scottjehl/iOS-Orientationchange-Fix)
 * [Hide Address Bar](https://github.com/scottjehl/Hide-Address-Bar)
 * [Progressive Enhancement](http://en.wikipedia.org/wiki/Progressive_enhancement)
-
-### Emerging Patterns
 
 #### Navigation
 * [Top Nav](http://riothq.com)

@@ -1,0 +1,16 @@
+@media (max-width: 959px) {
+  /* line 1, /Users/ben/Dropbox/WORK/Control/netmag-responsive-retrofitting/01-LinkingRetrofitCSS/yepnope/scss/_small.scss */
+  div {
+    width: 100px;
+    height: 100px;
+    background-color: red; } }
+@media (min-width: 600px) and (max-width: 959px) {
+  /* line 1, /Users/ben/Dropbox/WORK/Control/netmag-responsive-retrofitting/01-LinkingRetrofitCSS/yepnope/scss/_medium.scss */
+  div {
+    border: 15px solid green; } }
+@media (min-width: 960px) {
+  /* line 1, /Users/ben/Dropbox/WORK/Control/netmag-responsive-retrofitting/01-LinkingRetrofitCSS/yepnope/scss/_original.scss */
+  div {
+    width: 200px;
+    height: 200px;
+    background-color: blue; } }

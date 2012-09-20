@@ -51,12 +51,30 @@ h1 {
   min-width: 100%;
 }
 
+.test-5 .fixit img {
+  width: 100% !important;
+  height: auto !important;
+}
+
+.test-6 .fixit img {
+  width: 100%;
+  height: auto;
+}
+
+.test-7 .fixit img {
+  min-width: 100%;
+  max-width: 100%;
+  height: auto !important;
+}
 
 .test-1,
 .test-2,
 .test-2-c,
 .test-3-a,
 .test-3-b,
-.test-4-b {
+.test-4-b,
+.test-5,
+.test-6,
+.test-7 {
   border-color: green;
 }

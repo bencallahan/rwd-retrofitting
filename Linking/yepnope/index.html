@@ -1,0 +1,26 @@
+<!doctype html>
+
+<html class="no-js">
+<head>
+  <title>Retrofit CSS Linking</title>
+  
+  <script src="js/modernizr.custom.86842.js"></script>
+  
+  <script>
+    yepnope({
+      test : Modernizr.mq('(min-width: 0px)'),
+      yep  : 'css/rwd.css',
+      nope : 'css/original.css'
+    });
+  </script>
+  
+  <noscript>
+    <link rel="stylesheet" href="css/original.css">
+  </noscript>
+  
+</head>
+
+<body>
+  <div></div>
+</body>
+</html>

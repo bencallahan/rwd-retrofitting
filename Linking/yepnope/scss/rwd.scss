@@ -1,0 +1,11 @@
+@media (max-width: 959px) {
+  @import "small";
+}
+
+@media (min-width: 600px) and (max-width: 959px) {
+  @import "medium";
+}
+
+@media (min-width: 960px) {
+  @import "original";
+}
